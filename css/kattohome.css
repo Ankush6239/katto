@@ -1,0 +1,240 @@
+body {
+
+    font-family: "Montserrat", sans-serif;
+}
+
+#fa-brands {
+    padding-left: 15px;
+
+}
+
+#kattologo {
+    width: auto;
+    height: 40px;
+    margin: auto;
+}
+
+#btn {
+    color: white;
+    font-weight: bold;
+    border: none;
+    height: 36px;
+    width: 200px;
+    background-color: #23ba6f;
+    border-radius: 20px;
+    transition: box-shadow 0.3s ease;
+    /* Added transition for smooth effect */
+}
+
+
+#btn:hover,
+#btn:focus {
+    box-shadow:
+        inset -3.9em 0 0 0 rgba(0, 0, 0, 1.2),
+        inset 3.9em 0 0 0 rgba(0, 0, 0, 0.2)
+}
+
+#offimag {
+    padding-top: 30px;
+    width: 250px;
+}
+
+#bi {
+    color: #23ba6f;
+
+}
+
+#facebook,
+#twitter,
+#instagram {
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    object-fit: cover;
+    padding: 10px;
+}
+
+#facebook:hover,
+#twitter:hover,
+#instagram:hover {
+    background-color: #23ba6f;
+}
+
+#hoverm:hover {
+    color: #23ba6f;
+}
+
+#img2 {
+    width: 500px;
+    height: 500px;
+}
+
+#span {
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+#span2 {
+    color: #23ba6f;
+}
+
+#btnkatto{
+    background-color: #23ba6f;
+    color: white;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#btnkatto:hover{
+    background-color: black;
+    color: white;
+}
+
+#btnsign {
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 1px 3px 8px -1px #888;
+    border: none;
+}
+#btnsign:hover{
+    background-color: #23ba6f;
+    color: white;
+}
+#spanour{
+    font-size: 50px;
+  font-weight: bold;
+}
+#containershadow{
+    box-shadow: 1px 3px 33px 2px #888;
+}
+#card{
+    box-shadow: -1px 8px 15px 1px #888;
+    height: 310px;
+}
+#card:hover{
+    
+    top: -20px;
+    transition: 0.9s;
+    transition: all .4s ease-in-out;
+}
+#imgka{
+    width: 150px;
+    border: 2px solid #23ba6f;
+    border-radius: 100px;
+    text-align: center;
+    object-fit: cover ;
+    padding: 9px;
+    margin-left: 55px;
+    margin-top: 20px;
+    transition: all .5s ease-in-out;
+}
+#card:hover img{
+    transform: rotateY(360deg);
+}
+#containerbc{
+    /* background-image:url(https://katto.io/public/assets/img/shape/shape-6.png); */
+    background-color: black;
+}
+
+#spanride{
+    color: #23ba6f;
+}
+#cadcar{
+    width: 100px;
+    border: 1px solid #23ba6f;
+    border-radius: 72px;
+    padding: 6px;
+}
+.custbtn{
+        border: none;
+       background-color: #23ba6f;
+        border-radius: 50px;
+        font-size: 15px;
+        padding: 10px;
+        width: 159px;
+        height: 41px;
+        font-weight: bold;
+        color: white;
+        
+}
+.custbtn2{
+    border: none;
+   background-color:black;
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 10px;
+    width: 159px;
+    height: 41px;
+    font-weight: bold;
+    color: white;
+}
+.rounded1{
+    border-radius: 50px;
+  padding: 15px;
+  position: absolute;
+  width: 100%;
+  height: 239px;
+  top: -100px;
+    
+}
+#card1{
+    position: relative;
+    box-shadow: -1px 8px 15px 1px #888;
+    border-radius: 20px;
+    
+}
+#ride{
+    position: relative;
+    width: 80px;
+    background-color: white;
+    border-radius: 50px;
+    padding: 6px;
+    top: 70px;
+    left: 217px;
+}
+#card1:hover{
+    top: -20px;
+    transition: 0.9s;
+    transition: all .4s ease-in-out;
+}
+#cardtit:hover{
+   color: #23ba6f;
+}
+#spang{
+    color: #23ba6f;
+}
+.accordion-item{
+    /* border-radius: 20px; */
+
+    border: none;
+    box-shadow: -1px 8px 15px 1px #888;
+}
+.button3{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #23ba6f;
+    
+}
+#spanfar{
+    background-color: #23ba6f;
+    padding: auto;
+    border-radius: 50px;
+    
+    
+}
+.far{
+    font-size: 30px;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+}
+#sqare{
+    width: 100%;
+    height: 50px;
+    background-repeat: repeat-x;
+    background-image: url(https://katto.io/public/assets/img/shape/shape-5.png);
+}
