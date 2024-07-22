@@ -238,3 +238,110 @@ body {
     background-repeat: repeat-x;
     background-image: url(https://katto.io/public/assets/img/shape/shape-5.png);
 }
+#callbtn{
+    background-color: #23ba6f;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 245px
+}
+#callbtn:hover,
+#btn:focus {
+    box-shadow:
+        inset -3.9em 0 0 0 rgba(0, 0, 0, 1.2),
+        inset 3.9em 0 0 0 rgba(0, 0, 0, 0.2)
+}
+.wraper{
+    background-image: url(https://katto.io/public/assets/img/shape/shape-7.png);
+}
+#playbtn{
+    width: 173px;
+  border: none;
+  border-radius: 55px;
+  background-color:#23ba6f;
+  color: white;
+  font-weight: bold;
+}
+#playbtn:hover{
+  background-color: black;
+}
+#appbtn{
+    width: 173px;
+  border: none;
+  border-radius: 55px;
+  background-color:black;
+  color: white;
+  font-weight: bold;
+}
+#appbtn:hover{
+  background-color: #23ba6f;
+}
+#phimg{
+    width:100%;
+
+}
+.wraper{
+    border-radius: 50px;
+}
+#footerlogo{
+    width: 200px;
+    height: 52px;
+}
+#fp{
+    font-size: 15px;
+}
+#footerul{
+    list-style: none;
+}
+/* #bgimage3{
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    mask-repeat: none;
+} */
+/* #containerfluid{
+    background-image: url(https://katto.io/public/assets/img/footer_bg/footer_road.png);
+    width: 100%;
+    height: 500px;
+} */
+#subbtn{
+    background-color: #23ba6f;
+    color: white;
+}
+#subbtn:hover{
+    background-color: white;
+    color: #23ba6f;
+}
+#footerh2{
+    padding: 10px;
+    background: linear-gradient(to right, #23ba6f 20%, #888 10%, #888, #888) no-repeat;
+    background-size: 100% 3px;
+    background-position: left bottom;
+}
+#lip{
+    transition: width 2s;
+}
+#lip:hover{
+    padding-left: 10px;
+    transition-timing-function: ease-in-out;
+}
+#spanbg{
+    background-color: green;
+    font-size: 14px;
+    border-radius: 100px;
+    padding: 12px;
+  
+}
+#imgup{
+
+    position: absolute;
+   z-index: 1;
+
+}
+#imgup2{
+    position: relative;
+    z-index: -1;
+}
