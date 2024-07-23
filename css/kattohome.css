@@ -78,14 +78,15 @@ body {
     color: #23ba6f;
 }
 
-#btnkatto{
+#btnkatto {
     background-color: #23ba6f;
     color: white;
     border-radius: 30px;
     font-size: 20px;
     font-weight: bold;
 }
-#btnkatto:hover{
+
+#btnkatto:hover {
     background-color: black;
     color: white;
 }
@@ -99,70 +100,81 @@ body {
     box-shadow: 1px 3px 8px -1px #888;
     border: none;
 }
-#btnsign:hover{
+
+#btnsign:hover {
     background-color: #23ba6f;
     color: white;
 }
-#spanour{
+
+#spanour {
     font-size: 50px;
-  font-weight: bold;
+    font-weight: bold;
 }
-#containershadow{
+
+#containershadow {
     box-shadow: 1px 3px 33px 2px #888;
 }
-#card{
+
+#card {
     box-shadow: -1px 8px 15px 1px #888;
     height: 310px;
 }
-#card:hover{
-    
+
+#card:hover {
+
     top: -20px;
     transition: 0.9s;
     transition: all .4s ease-in-out;
 }
-#imgka{
+
+#imgka {
     width: 150px;
     border: 2px solid #23ba6f;
     border-radius: 100px;
     text-align: center;
-    object-fit: cover ;
+    object-fit: cover;
     padding: 9px;
     margin-left: 55px;
     margin-top: 20px;
     transition: all .5s ease-in-out;
 }
-#card:hover img{
+
+#card:hover img {
     transform: rotateY(360deg);
 }
-#containerbc{
+
+#containerbc {
     /* background-image:url(https://katto.io/public/assets/img/shape/shape-6.png); */
     background-color: black;
 }
 
-#spanride{
+#spanride {
     color: #23ba6f;
 }
-#cadcar{
+
+#cadcar {
     width: 100px;
     border: 1px solid #23ba6f;
     border-radius: 72px;
     padding: 6px;
 }
-.custbtn{
-        border: none;
-       background-color: #23ba6f;
-        border-radius: 50px;
-        font-size: 15px;
-        padding: 10px;
-        width: 159px;
-        height: 41px;
-        font-weight: bold;
-        color: white;
-        
-}
-.custbtn2{
+
+.custbtn {
     border: none;
-   background-color:black;
+    background-color: #23ba6f;
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 10px;
+    width: 159px;
+    height: 41px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.custbtn2 {
+    border: none;
+    background-color: black;
     border-radius: 50px;
     font-size: 15px;
     padding: 10px;
@@ -171,22 +183,25 @@ body {
     font-weight: bold;
     color: white;
 }
-.rounded1{
+
+.rounded1 {
     border-radius: 50px;
-  padding: 15px;
-  position: absolute;
-  width: 100%;
-  height: 239px;
-  top: -100px;
-    
+    padding: 15px;
+    position: absolute;
+    width: 100%;
+    height: 239px;
+    top: -100px;
+
 }
-#card1{
+
+#card1 {
     position: relative;
     box-shadow: -1px 8px 15px 1px #888;
     border-radius: 20px;
-    
+
 }
-#ride{
+
+#ride {
     position: relative;
     width: 80px;
     background-color: white;
@@ -195,50 +210,59 @@ body {
     top: 70px;
     left: 217px;
 }
-#card1:hover{
+
+#card1:hover {
     top: -20px;
     transition: 0.9s;
     transition: all .4s ease-in-out;
 }
-#cardtit:hover{
-   color: #23ba6f;
-}
-#spang{
+
+#cardtit:hover {
     color: #23ba6f;
 }
-.accordion-item{
+
+#spang {
+    color: #23ba6f;
+}
+
+.accordion-item {
     /* border-radius: 20px; */
 
     border: none;
     box-shadow: -1px 8px 15px 1px #888;
 }
-.button3{
+
+.button3 {
     width: 100%;
     border: none;
     background-color: transparent;
     border-bottom: 2px solid #23ba6f;
-    
+
 }
-#spanfar{
+
+#spanfar {
     background-color: #23ba6f;
     padding: auto;
     border-radius: 50px;
-    
-    
+
+
 }
-.far{
+
+.far {
     font-size: 30px;
     padding: 10px;
     font-weight: bold;
     color: white;
 }
-#sqare{
+
+#sqare {
     width: 100%;
     height: 50px;
     background-repeat: repeat-x;
     background-image: url(https://katto.io/public/assets/img/shape/shape-5.png);
 }
-#callbtn{
+
+#callbtn {
     background-color: #23ba6f;
     color: white;
     border-radius: 50px;
@@ -248,54 +272,66 @@ body {
     font-weight: bold;
     margin-left: 245px
 }
+
 #callbtn:hover,
 #btn:focus {
     box-shadow:
         inset -3.9em 0 0 0 rgba(0, 0, 0, 1.2),
         inset 3.9em 0 0 0 rgba(0, 0, 0, 0.2)
 }
-.wraper{
+
+.wraper {
     background-image: url(https://katto.io/public/assets/img/shape/shape-7.png);
 }
-#playbtn{
+
+#playbtn {
     width: 173px;
-  border: none;
-  border-radius: 55px;
-  background-color:#23ba6f;
-  color: white;
-  font-weight: bold;
+    border: none;
+    border-radius: 55px;
+    background-color: #23ba6f;
+    color: white;
+    font-weight: bold;
 }
-#playbtn:hover{
-  background-color: black;
+
+#playbtn:hover {
+    background-color: black;
 }
-#appbtn{
+
+#appbtn {
     width: 173px;
-  border: none;
-  border-radius: 55px;
-  background-color:black;
-  color: white;
-  font-weight: bold;
+    border: none;
+    border-radius: 55px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
 }
-#appbtn:hover{
-  background-color: #23ba6f;
+
+#appbtn:hover {
+    background-color: #23ba6f;
 }
-#phimg{
-    width:100%;
+
+#phimg {
+    width: 100%;
 
 }
-.wraper{
+
+.wraper {
     border-radius: 50px;
 }
-#footerlogo{
+
+#footerlogo {
     width: 200px;
     height: 52px;
 }
-#fp{
+
+#fp {
     font-size: 15px;
 }
-#footerul{
+
+#footerul {
     list-style: none;
 }
+
 /* #bgimage3{
     z-index: 1;
     position: relative;
@@ -307,41 +343,120 @@ body {
     width: 100%;
     height: 500px;
 } */
-#subbtn{
+#subbtn {
     background-color: #23ba6f;
     color: white;
+
 }
-#subbtn:hover{
+
+#subbtn:hover {
     background-color: white;
     color: #23ba6f;
 }
-#footerh2{
+
+#footerh2 {
     padding: 10px;
     background: linear-gradient(to right, #23ba6f 20%, #888 10%, #888, #888) no-repeat;
     background-size: 100% 3px;
     background-position: left bottom;
 }
-#lip{
+
+#lip {
     transition: width 2s;
 }
-#lip:hover{
+
+#lip:hover {
     padding-left: 10px;
     transition-timing-function: ease-in-out;
 }
-#spanbg{
+
+#spanbg {
     background-color: green;
     font-size: 14px;
     border-radius: 100px;
     padding: 12px;
-  
-}
-#imgup{
-
-    position: absolute;
-   z-index: 1;
 
 }
-#imgup2{
+
+#aboutul {
+    list-style: none;
+}
+
+#aboutli {
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#aboutcontainerfluid {
+    background: url('https://katto.io/public/assets/img/breadcrumb/01.jpg');
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+
+}
+#aboutdivimg{
+    width: 100%;
+}
+#faiimg{
+    background-color: #23ba6f;
+    border-radius: 50px;
+    font-size: 34px;
+    width: 80px;
+    height: 80px;
+    color: white;
+    padding: 18px;
+    padding-left: 23px;
+    padding-top: 17px;
+}
+#cardbodycontact{
+    border: 3px solid #23ba6f;
+    border-left: none;
+    border-bottom: none;
+    border-radius: 20px;
+    background-size: 100% 3px;
+}
+#cardcontact{
+    border-radius: 20px;
+}
+#cardcontact:hover{
     position: relative;
-    z-index: -1;
-}
+    top: -15px;
+    transition:.5s ease-in-out;
+  }
+  
+
+  #divimagecontactform{
+    /* position: absolute; */
+    border: 6px solid #23ba6f;
+    border-radius: 46px 50% 50% 50%;
+    padding: 10px;
+    /* width: 100%;
+    height: 100%; */
+  }
+  #divimagecontactform img{
+    border-radius: 40px 50% 50% 50%;
+    width: 100%;
+  }
+  #submitcontact{
+    background-color: #23ba6f;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 40px;
+    border: none;
+  }
+  #submitcontact:hover{
+    background-color:black;
+    color: white;
+  }
+  #inputEmail4{
+    padding: 20px;
+    border-radius: 19px;
+  }

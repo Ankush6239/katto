@@ -27,10 +27,10 @@
       </div>
     </nav>
   </header>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary p-3">
     <div class="container-fluid ">
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+      <button class="navbar-toggler my-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
         aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -39,16 +39,16 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav mb-2 mb-lg-0 ms-auto fs-5 fw-bold">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#" id="hoverm">Home</a>
+            <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/html/kattohome.html#" id="hoverm">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" id="hoverm">About</a>
+            <a class="nav-link" href="http://127.0.0.1:5500/html/kattoabout.html" id="hoverm">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " aria-disabled="true" id="hoverm">Captain</a>
+            <a class="nav-link " href="http://127.0.0.1:5500/html/kattocaptain.html" aria-disabled="true" id="hoverm">Captain</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-disabled="true" id="hoverm">Contact</a>
+            <a class="nav-link" href="http://127.0.0.1:5500/html/kattpcontact.html" aria-disabled="true" id="hoverm">Contact</a>
           </li>
           <li class="nav-item">
             <a class="nav-link"><button type="button" id="btn">DOWNLOAD APP</button></a>
@@ -459,7 +459,15 @@
     </div>
   </div>
   </div>
-  <div class="footer">
+ 
+  <div class="container">
+    <div class="row">
+      <div>
+        <img src="" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="footer" id="flowrow2">
     <div class="container-fluid bg-dark">
       <div class="container">
         <div class="row ">
@@ -477,22 +485,17 @@
           <div class="col-md-4 col-sm-12 mt-4">
             <div class="contatact text-white d-flex">
               <i class="fa-solid fa-phone" style="margin-top: 16px;font-size: 53px;"></i>
-              <p style="padding-left: 21px;"><span>Call us</span><br>
-                <a href="tel:+91 623936671" class=" text-decoration-none fs-2 fw-bold text-white ">(+91 623936671)
+              <p style="padding-left: -21px;"><span>Call us</span><br>
+                <a href="tel:+91 623936671" class=" text-decoration-none fs-2 fw-bold text-white ">(+91 623936671)</a>
               </p>
             </div>
           </div>
         </div>
       </div>
-      <div class="container-fluid">
-        <div class="row">
-          <!-- <div><img src="https://katto.io/public/assets/img/footer_bg/footer_road.png" style="width: 100%; height: 500px; " alt=""></div> -->
-      </div>
-    </div>
-      <div class="container-fluid" style="background-image:url() ;">
-        <div class="container">
-          <div class="row d-flex">
-            <div class="col-md-3 col-sm-12">
+      <div class="container-fluid h-100">
+        <div class="container py-5">
+          <div class="row d-flex text-white">
+            <div class="col-md-3 col-sm-12 ">
               <ul id="footerul">
                 <li>
                   <h2 id="footerh2" class="fs-5">Newsletter</h2>
@@ -502,8 +505,7 @@
                 </li>
                 <li> <input type="text" placeholder="Your Email" class="rounded-2 border-0 text-center w-75 h-50 fs-6">
                 </li>
-                <li><button class="fs-6 border-0 rounded-5 text-center w-75 fw-bold" id="subbtn">Subscribe Now <i
-                      class="fa-solid fa-paper-plane"></i></button></li>
+                <li><button class="fs-6 border-0 rounded-5 text-center p-2 fw-bold mt-2" id="subbtn">Subscribe Now <i class="fa-solid fa-paper-plane"></i></button></li>
               </ul>
             </div>
             <div class="col-md-3 col-sm-12 ">
@@ -548,10 +550,8 @@
               </ul>
             </div>
           </div>
-       
         </div>
       </div>
-
     </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
